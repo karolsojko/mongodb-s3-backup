@@ -1,0 +1,6 @@
+{
+  "name": "MongoDB Backup",
+  "description": "MongoDB backup script",
+  "image": "heroku/nodejs",
+  "addons": []
+}

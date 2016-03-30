@@ -1,0 +1,15 @@
+{
+  "name": "mongodb-backup-s3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "mongodump-s3": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karolsojko@gmail.com",
+  "license": "ISC"
+}
