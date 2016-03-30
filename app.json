@@ -2,5 +2,12 @@
   "name": "MongoDB Backup",
   "description": "MongoDB backup script",
   "image": "heroku/nodejs",
-  "addons": []
+  "addons": [
+    "scheduler:standard"
+  ],
+  "buildpacks": [
+    {
+      "url": "http://github.com/Lendix/heroku-buildpack-mongo.git"
+    }
+  ]
 }
